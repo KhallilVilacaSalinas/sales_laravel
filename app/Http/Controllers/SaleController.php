@@ -11,6 +11,6 @@ class SaleController extends Controller
 {
     public function createNewSaleAction(Response $response, Request $request)
     {
-
+        dd($request->all());
     }
 }
